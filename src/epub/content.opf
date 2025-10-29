@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/frank-norris/the-pit</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-10-29T21:30:52Z</dc:date>
+		<meta property="dcterms:modified">2025-10-29T21:30:52Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -55,16 +55,19 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">A turn-of-the-century Chicago couple navigates the murky waters of greed, ambition, and loss against the backdrop of the Board of Trade’s wheat speculation pits.</dc:description>
+		<meta id="collection" property="belongs-to-collection">The Epic of the Wheat</meta>
+		<meta property="collection-type" refines="#collection">set</meta>
+		<meta property="group-position" refines="#collection">2</meta>
+		<dc:description id="description">A couple in turn-of-the-century Chicago navigates the murky waters of greed, ambition, and loss against the backdrop of the Board of Trade’s wheat speculation pits.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Laura Dearborn says she will never marry. Living with her sister and aunt in turn-of-the-century Chicago, she is content with her comfortable, studious life. With three suitors eager to win her love, however, Laura must decide between the disparate futures each could provide her. And as speculators struggle for control of the market in the wheat pits of the Chicago Board of Trade, each of those very futures may hang in the balance.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/frank-norris"&gt;Frank Norris&lt;/a&gt; intended &lt;i&gt;The Pit&lt;/i&gt; to be the second installment in &lt;a href="https://standardebooks.org/collections/the-epic-of-the-wheat"&gt;The Epic of the Wheat&lt;/a&gt;, a trilogy of standalone novels describing the journey of a shipment of wheat from its harvest in California, through the speculation pits of Chicago, and finally to its consumption in famine-stricken Western Europe. The first novel, &lt;i&gt;The Octopus&lt;/i&gt;, was published in 1901; after Norris died unexpectedly in 1902, &lt;i&gt;The Pit&lt;/i&gt; was published posthumously in 1903 and the trilogy was left unfinished.&lt;/p&gt;
+			&lt;p&gt;Laura Dearborn says she’ll never marry. Living with her sister and aunt in turn-of-the-century Chicago, she’s content with her comfortable, studious life. But with three suitors eager to win her love, Laura must decide between the disparate futures each could provide her—and as speculators struggle for control of the market in the wheat pits of the Chicago Board of Trade, each of those futures hangs in the balance.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/frank-norris"&gt;Frank Norris&lt;/a&gt; intended &lt;i&gt;The Pit&lt;/i&gt; to be the second installment in his &lt;a href="https://standardebooks.org/collections/the-epic-of-the-wheat"&gt;Epic of the Wheat&lt;/a&gt;, a trilogy of novels describing the journey of a shipment of wheat from its harvest in California, through the speculation pits of Chicago, and finally to its consumption in famine-stricken Western Europe. Unfortunately, he didn’t live to complete it; he died in 1902 and &lt;i&gt;The Pit&lt;/i&gt; was published posthumously in 1903, leaving the trilogy unfinished.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4382</dc:source>
 		<dc:source>https://archive.org/details/pit0000fran</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">127765</meta>
+		<meta property="se:reading-ease.flesch">73.47</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Pit_(Norris_novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/frank-norris_the-pit</meta>
 		<dc:creator id="author">Frank Norris</dc:creator>
@@ -96,6 +99,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Lukas Bystricky</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Bystricky, Lukas</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
