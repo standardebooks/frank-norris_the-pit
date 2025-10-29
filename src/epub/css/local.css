@@ -14,8 +14,8 @@ section[epub|type~="dedication"] > *{
 	text-indent: 0;
 }
 
-section[epub|type~="dedication"] *:first-child{
-	font-size: x-large;
+section[epub|type~="dedication"] p:first-child{
+	font-size: larger;
 	font-weight: bold;
 	padding-bottom: 3em;
 }
