@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="conclusion.xhtml">
+		<ignore>
+			<code>c-017</code>
+			<reason>Postscript is inline to match dialogue and so doesn't need CSS.</reason>
+		</ignore>
+		<ignore>
+			<code>c-018</code>
+			<reason>Postscript is inline to match dialogue and so doesn't need CSS.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
