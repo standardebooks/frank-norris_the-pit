@@ -66,7 +66,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4382</dc:source>
 		<dc:source>https://archive.org/details/pit0000fran</dc:source>
-		<meta property="se:word-count">127765</meta>
+		<meta property="se:word-count">125281</meta>
 		<meta property="se:reading-ease.flesch">73.47</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Pit_(Norris_novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/frank-norris_the-pit</meta>
