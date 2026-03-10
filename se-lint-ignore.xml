@@ -2,9 +2,11 @@
 <se-lint-ignore>
 	<file path="conclusion.xhtml">
 		<ignore code="c-017">
+			<line>48</line>
 			<reason>Postscript is inline to match dialogue and so doesn't need CSS.</reason>
 		</ignore>
 		<ignore code="c-018">
+			<line>48</line>
 			<reason>Postscript is inline to match dialogue and so doesn't need CSS.</reason>
 		</ignore>
 	</file>
