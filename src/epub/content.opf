@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Pit: A Story of Chicago</dc:title>
 		<meta property="file-as" refines="#fulltitle">Pit: A Story of Chicago, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Didactic fiction</dc:subject>
 		<dc:subject id="subject-2">Psychological fiction</dc:subject>
 		<dc:subject id="subject-3">Domestic fiction</dc:subject>
