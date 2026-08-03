@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/frank-norris/the-pit</dc:identifier>
 		<dc:date>2025-10-29T21:30:52Z</dc:date>
@@ -59,11 +59,11 @@
 		<meta id="collection" property="belongs-to-collection">The Epic of the Wheat</meta>
 		<meta property="collection-type" refines="#collection">set</meta>
 		<meta property="group-position" refines="#collection">2</meta>
-		<dc:description id="description">A couple in turn-of-the-century Chicago navigates the murky waters of greed, ambition, and loss against the backdrop of the Board of Trade’s wheat speculation pits.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A couple in turn-of-the-century Chicago navigates the murky waters of greed, ambition, and loss against the backdrop of the Board of Trade’s wheat speculation pits.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Laura Dearborn says she’ll never marry. Living with her sister and aunt in turn-of-the-century Chicago, she’s content with her comfortable, studious life. But with three suitors eager to win her love, Laura must decide between the disparate futures each could provide her—and as speculators struggle for control of the market in the wheat pits of the Chicago Board of Trade, each of those futures hangs in the balance.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/frank-norris"&gt;Frank Norris&lt;/a&gt; intended &lt;i&gt;The Pit&lt;/i&gt; to be the second installment in his &lt;a href="https://standardebooks.org/collections/the-epic-of-the-wheat"&gt;Epic of the Wheat&lt;/a&gt;, a trilogy of novels describing the journey of a shipment of wheat from its harvest in California, through the speculation pits of Chicago, and finally to its consumption in famine-stricken Western Europe. Unfortunately, he didn’t live to complete it; he died in 1902 and &lt;i&gt;The Pit&lt;/i&gt; was published posthumously in 1903, leaving the trilogy unfinished.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4382</dc:source>
 		<dc:source>https://archive.org/details/pit0000fran</dc:source>
